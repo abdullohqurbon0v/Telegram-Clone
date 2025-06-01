@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Telegram Clone
 
-## Getting Started
+Welcome to the **Telegram Clone** project! 🚀 This is an open-source project developed collaboratively by **Abdulloh** and **Azizbek**. The goal of this project is to replicate the core functionalities of Telegram using modern web technologies.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-time Messaging**: Seamless communication with friends and groups.
+- **User Authentication**: Secure login and registration system.
+- **Responsive Design**: Optimized for all devices.
+- **Modern UI/UX**: Built with **Daisy UI** for a clean and intuitive interface.
+- **Scalable Backend**: Powered by **Python Django** for robust server-side functionality.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+### Frontend
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **TypeScript**: Strongly typed JavaScript for better code quality.
+- **Daisy UI**: Tailwind CSS components for beautiful and responsive design.
 
-To learn more about Next.js, take a look at the following resources:
+### Backend
+- **Python Django**: High-level Python web framework for rapid development.
+- **REST API**: Backend services exposed via RESTful endpoints.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Getting Started
 
-## Deploy on Vercel
+### Prerequisites
+- Node.js and npm installed
+- Python and pip installed
+- PostgreSQL or any preferred database
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend Setup
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/abdulloh/telegram-clone-frontend.git
+    cd telegram-clone-frontend
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Backend Setup
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/azizbek/telegram-clone-backend.git
+    cd telegram-clone-backend
+    ```
+2. Create a virtual environment and activate it:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Run migrations and start the server:
+    ```bash
+    python manage.py migrate
+    python manage.py runserver
+    ```
+
+---
+
+## 🤝 Contributors
+
+- **Abdulloh**: Frontend development using Next.js, TypeScript, and Daisy UI.
+- **Azizbek**: Backend development using Python Django.
+
+---
+
+## 🌍 Community and Contributions
+
+We welcome contributions from the community! Feel free to fork the repository, submit issues, or create pull requests. Let's build something amazing together!
+
+---
+
+## 📫 Contact
+
+- **Abdulloh**: [GitHub](https://github.com/abdulloh)
+- **Azizbek**: [GitHub](https://github.com/azizbek)
+
+---
