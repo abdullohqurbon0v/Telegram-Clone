@@ -1,7 +1,20 @@
 # Telegram Clone
 
 Welcome to the **Telegram Clone** project! 🚀 This is an open-source project developed collaboratively by **Abdulloh** and **Azizbek**. The goal of this project is to replicate the core functionalities of Telegram using modern web technologies.
+## 🔌 Real-time Communication with Socket.IO
 
+This project leverages **Socket.IO** for real-time, bidirectional communication between the client and server. It ensures instant message delivery and updates across all connected devices.
+
+### Key Benefits
+- **Low Latency**: Messages are delivered in real-time with minimal delay.
+- **Scalability**: Efficient handling of multiple concurrent connections.
+- **Cross-platform Support**: Works seamlessly across web and mobile platforms.
+
+### Integration
+- **Frontend**: Socket.IO client is integrated into the Next.js application for real-time updates.
+- **Backend**: Django is configured with a WebSocket server using **Django Channels** to support Socket.IO.
+
+---
 ---
 
 ## 🌟 Features
